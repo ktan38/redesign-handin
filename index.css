@@ -1,1 +1,153 @@
 /* Put your style information here! */
+.text {
+    display: flex;
+    font-family: 'Helvetica Neue', Helvetica-Neue, HelveticaNeue;
+    font-size: 1em;
+
+}
+
+.sketch { 
+
+    max-width: 35%;
+    max-height: 35%;
+
+}
+
+.list {
+    font-family: 'Helvetica Neue', Helvetica-Neue, HelveticaNeue;
+    font-size: 1em;
+    max-width: 800px;
+    margin-left: 30px;
+
+}
+
+.bullet { 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    position:relative;
+  }
+  
+.column {
+max-width: 40%;
+max-height: 40%;
+flex: 33.33%;
+padding: 5px;
+}
+
+.personas {
+    margin-bottom: 100px;
+}
+
+/* #brian { 
+    margin-top: 120px;
+}
+
+#vicky {
+    margin-top: 230px;
+} */
+
+
+.descriptions {
+    margin-top: 300px;
+}
+
+.storyboard { 
+
+    max-width: 55%;
+    max-height: 55%;
+}
+
+h3, h4, h5, h6, h2 {
+
+    font-family: 'Helvetica Neue', Helvetica-Neue, HelveticaNeue;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', Helvetica-Neue, HelveticaNeue;
+    color: #2e6d79;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.table-text {
+    font-family: 'Helvetica Neue', Helvetica-Neue, HelveticaNeue;
+}
+
+.headshot {
+    border: 0.2rem solid #FFFFFF;
+    width: 30rem;
+    height: 16rem;
+    object-fit: cover;
+}
+
+.desktop {
+    border: 0.2rem solid #FFFFFF;
+    width: 50rem;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.mobile {
+        border: 0.2rem solid #FFFFFF;
+        width: 13rem;
+        height: 30rem;
+        object-fit: cover;
+}
+
+.tablet {
+    border: 0.2rem solid #FFFFFF;
+        width: 26rem;
+        height: 30rem;
+        object-fit: cover;
+}
+
+.doublephone {
+    border: 0.2rem solid #FFFFFF;
+        width: 30rem;
+        height: 30rem;
+        object-fit: cover;
+}
+
+.hifidesktop {
+    border: 0.2rem solid #FFFFFF;
+    width: 45rem;
+    height: 45rem;
+    object-fit: cover;
+}
+
+.hifitablet {
+    border: 0.2rem solid #FFFFFF;
+    width: 25rem;
+    height: 38rem;
+    object-fit: cover;
+}
+
+.hifiannotate {
+    border: 0.2rem solid #FFFFFF;
+    width: 58rem;
+    height: 45rem;
+    object-fit: cover;
+}
+
+.btn:focus, .btn:hover {
+    filter: brightness(120%);
+}
+
+.btn-lg {
+    background-color: #2e6d79;
+    margin: 2rem 0;
+}
+
+.guide {
+    border: 0.2rem solid #FFFFFF;
+    width: 50rem;
+    height: 35rem;
+    object-fit: cover;
+}
